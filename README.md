@@ -59,6 +59,19 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 - Windowsでは、XMLを編集する際は、インストールされているファイルを直接編集するのではなく、
   別の場所で編集してコピーすることをおすすめします。直接編集するとVirtualStoreに飛ばされます。
 
+## 余談
+
+MySQL WorkbenchのCSV/JSONインポートでは、ASCIIしか扱えません。
+UTF-8を扱えるようにするには、管理者権限で、`MySQL Workbench 6.3 CE/python/lib/site.py` の
+
+`encoding = "ascii"`
+
+を
+
+`encoding = "utf8"`
+
+にします。
+
 ## 免責
 
 翻訳の正確さについては保証しません。
