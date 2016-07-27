@@ -20,6 +20,10 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 
 - `predefined_starters.ja.xml`
 
+- `install_win.bat`
+- `install_mac.sh`
+- `install_linux.sh`
+
 ## プラットフォーム
 
 - MySQL Workbench 6.3.7
@@ -33,13 +37,16 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 
 ## インストール
 
-ファイルを以下の場所にコピーします。
+各OS用のインストールスクリプトを、*管理者権限で* 実行してください。
+
+手作業で行う場合は、`*.xml` ファイルを以下の場所にコピーします。
 
 - Windows
-	- `C:\Program Files (x86)\MySQL\MySQL Workbench 6.3 CE\data`
+	- `C:\Program Files\MySQL\MySQL Workbench 6.3 CE\data`
+	- 64ビット版Windowsに32ビット版ソフトウェアをインストールしている場合は、`C:\Program Files (x86)`となります。
 - Mac OS X
 	- `/Applications/MySQLWorkbench.app/Contents/Resources/data`
-- Linux
+- CentOS
 	- `/usr/share/mysql-workbench/data`
 
 ## 注意
@@ -57,6 +64,10 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 本パッケージの使用に伴う損害・不利益・逸失利益などについて作者は一切責任を負いません。
 
 本パッケージについてOracleその他への問い合わせはご遠慮ください。
+
+## ライセンス
+
+オリジナルに従います。
 
 ## 作者
 
