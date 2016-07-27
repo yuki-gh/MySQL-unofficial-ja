@@ -43,7 +43,8 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 
 - Windows
 	- `C:\Program Files\MySQL\MySQL Workbench 6.3 CE\data`
-	- 64ビット版Windowsに32ビット版ソフトウェアをインストールしている場合は、`C:\Program Files (x86)`となります。
+	- 64ビット版Windowsに32ビット版ソフトウェアをインストールしている場合は、
+	  `C:\Program Files (x86)`となります。
 - Mac OS X
 	- `/Applications/MySQLWorkbench.app/Contents/Resources/data`
 - CentOS
@@ -55,7 +56,8 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 - 外部化されていないテキストが多いようなので、これ以上の翻訳は困難と思われます。
 - ホーム画面右ペインのShortcutsは、`predefined_starters.xml`で翻訳できますが、文字化けするので保留しています。
 - XMLを編集する際は、ファイルはUTF-8である必要があります。シフトJISになっているとクラッシュします。
-- Windowsでは、XMLを編集する際は、インストールされているファイルを直接編集するのではなく、別の場所で編集してコピーすることをおすすめします。直接編集するとVirtualStoreに飛ばされます。
+- Windowsでは、XMLを編集する際は、インストールされているファイルを直接編集するのではなく、
+  別の場所で編集してコピーすることをおすすめします。直接編集するとVirtualStoreに飛ばされます。
 
 ## 免責
 
