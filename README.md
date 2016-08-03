@@ -47,7 +47,7 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 	  `C:\Program Files (x86)`となります。
 - Mac OS X
 	- `/Applications/MySQLWorkbench.app/Contents/Resources/data`
-- CentOS
+- Linux
 	- `/usr/share/mysql-workbench/data`
 
 ## 注意
