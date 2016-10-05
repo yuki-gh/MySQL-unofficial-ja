@@ -21,8 +21,7 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 - `predefined_starters.ja.xml`
 
 - `install_win.bat`
-- `install_mac.sh`
-- `install_linux.sh`
+- `install.sh`
 
 ## プラットフォーム
 
