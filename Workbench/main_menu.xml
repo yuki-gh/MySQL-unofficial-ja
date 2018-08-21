@@ -1,17 +1,13 @@
 <?xml version="1.0"?>
-
 <data>
   <value type="list" content-type="object" content-struct-name="app.MenuItem">
 
     <!-- File Menu -->
-
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file">
       <value type="string" key="name">file</value>
       <value type="string" key="caption">ファイル(_F)</value>
       <value type="string" key="itemType">cascade</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-		
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.new1">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
           <value type="string" key="name">new_document</value>
@@ -19,7 +15,6 @@
           <value type="string" key="itemType">action</value>
           <value type="string" key="shortcut">Modifier+N</value>
         </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.file_new">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
           <value type="string" key="caption">新規クエリタブ(_T)...</value>
@@ -134,8 +129,7 @@
             <value type="string" key="itemType">separator</value>
             <value type="string" key="context">*model</value>
         </value>
-        <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.file.close_
-          ">
+        <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.file.close_          ">
           <value type="string" key="itemType">separator</value>
           <value type="string" key="context">*query</value>
         </value>
@@ -148,7 +142,6 @@
           <value type="string" key="itemType">action</value>
           <value type="string" key="shortcut">Modifier+S</value>
         </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.savesql">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
           <value type="string" key="context">*query</value>
@@ -201,7 +194,6 @@
           <value type="string" key="caption">インポート(_I)</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.import.mysql.sql">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file.import</link>
               <value type="string" key="caption">MySQLの作成スクリプトをリバースエンジニアリング...</value>
@@ -221,7 +213,6 @@
           <value type="string" key="itemType">cascade</value>
           <value type="string" key="context">*model</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.export.sql_script">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file.export</link>
               <value type="string" key="name">export_sql_script</value>
@@ -285,7 +276,6 @@
           <value type="string" key="platform">linux</value>
           <value type="string" key="context">*model</value>
         </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.file.printPreview">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.file</link>
           <value type="string" key="caption">印刷プレビュー...</value>
@@ -350,13 +340,11 @@
       </value>
     </value>
     <!-- Edit Menu -->
-
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.edit">
       <value type="string" key="name">edit</value>
       <value type="string" key="caption">編集(_E)</value>
       <value type="string" key="itemType">cascade</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.edit.undo">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit</link>
           <value type="string" key="caption">元に戻す</value>
@@ -481,7 +469,6 @@
           <value type="string" key="itemType">action</value>
           <value type="string" key="shortcut">Modifier+Shift+E</value>
         </value>        
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.edit.edit">
           <value type="string" key="itemType">separator</value>
         </value>
@@ -491,9 +478,7 @@
           <value type="string" key="name">select</value>
           <value type="string" key="itemType">cascade</value>
           <value type="string" key="context">*model</value>
-          
           <value type="list" content-type="object" content-struct-name="app.MenuItem" key="subItems">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.edit.select_all">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.edit.select</link>
               <value type="string" key="name">selectAll</value>
@@ -654,7 +639,6 @@
               <value type="string" key="platform">macosx</value>
               <value type="string" key="context">*query</value>
             </value>
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.edit.options">
           <value type="string" key="itemType">separator</value>
           <value type="string" key="platform">windows,linux</value>
@@ -670,13 +654,11 @@
       </value>
     </value>
     <!-- View Menu -->
-
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view">
       <value type="string" key="name">view</value>
       <value type="string" key="caption">表示(_V)</value>
       <value type="string" key="itemType">cascade</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
           <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.overview.home">
             <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
             <value type="string" key="caption">ホーム</value>
@@ -927,7 +909,6 @@
           <value type="string" key="caption">マーカーをセット</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.set_marker.marker_1">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view.set_marker</link>
               <value type="string" key="caption">マーカー1をセット</value>
@@ -1180,7 +1161,6 @@
           <value type="string" key="caption">マーカーへ移動</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.go_to_marker.marker_1">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view.go_to_marker</link>
               <value type="string" key="caption">マーカー1へ移動</value>
@@ -1259,7 +1239,6 @@
           <value type="string" key="itemType">separator</value>
           <value type="string" key="context">*model</value>
         </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.grid">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
           <value type="string" key="name">grid_toggle</value>
@@ -1276,6 +1255,7 @@
         </value>
       </value>
     </value>
+
     <!-- Arrange Menu -->
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.arrange">
       <value type="string" key="name">arrange</value>
@@ -1283,7 +1263,6 @@
       <value type="string" key="itemType">cascade</value>
       <value type="string" key="context">*model</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.arrange.grid_align">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.arrange</link>
           <value type="string" key="name">grid_align</value>
@@ -1359,7 +1338,6 @@
       <value type="string" key="itemType">cascade</value>
       <value type="string" key="context">*model</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.tools.newdiag">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model</link>
           <value type="string" key="caption">ダイアグラムを追加</value>
@@ -1375,7 +1353,6 @@
           <value type="string" key="command">plugin:wb.model.createDiagramWithCatalog</value>
           <value type="string" key="itemType">action</value>
         </value>
-        <!-- add a new schema entry -->
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.model.stuff">
           <value type="string" key="itemType">separator</value>
         </value>
@@ -1413,7 +1390,6 @@
           <value type="string" key="caption">Validation</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateAll/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation/SE</link>
               <value type="string" key="caption">Validate All</value>
@@ -1468,7 +1444,6 @@
           <value type="string" key="caption">Validation (MySQL)</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validationmysql.validateAll/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation_mysql/SE</link>
               <value type="string" key="caption">Validate All</value>
@@ -1512,7 +1487,6 @@
           <value type="string" key="caption">オブジェクトの表記法</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.visualization.table_default">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.fnotation</link>
               <value type="string" key="name">figure_notation_wb</value>
@@ -1557,7 +1531,6 @@
           <value type="string" key="caption">関係の表記法</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.rnotation.crows_feet">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.rnotation</link>
               <value type="string" key="name">visualization_notation_crows_feet</value>
@@ -1624,6 +1597,7 @@
         </value>
       </value>
     </value>
+
     <!-- SQL Editor Menu --> 
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query">
       <value type="string" key="context">dbquery</value>
@@ -1631,7 +1605,6 @@
       <value type="string" key="caption">クエリ(_Q)</value>
       <value type="string" key="itemType">cascade</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.exec"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">実行 (全部または選択範囲)</value> 
@@ -1640,7 +1613,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut">Modifier+Shift+Return</value>
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.exec_to_text"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">テキストへ実行 (全部または選択範囲)</value> 
@@ -1648,7 +1620,6 @@
           <value type="string" key="command">plugin:wb.sqlide.executeToTextOutput</value> 
           <value type="string" key="itemType">action</value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.execute_current_statementwin"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">現在の文を実行</value> 
@@ -1658,7 +1629,6 @@
           <value type="string" key="shortcut">Modifier+Return</value>
           <value type="string" key="platform">windows</value>
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.execute_current_statement"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">現在の文を実行</value> 
@@ -1668,16 +1638,14 @@
           <value type="string" key="shortcut">Modifier+Return</value>
           <value type="string" key="platform">macosx,linux</value>
         </value> 
-
-        <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.vertical_output"> 
+        <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.vertical_EditorBox"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">現在の文を実行 (縦書き出力)</value> 
-          <value type="string" key="name">query.vertical_output</value> 
+          <value type="string" key="name">query.vertical_EditorBox</value> 
           <value type="string" key="command">plugin:wb.sqlide.verticalOutput</value> 
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut">Modifier+Alt+Return</value>
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.query.explsep">
           <value type="string" key="itemType">separator</value>
         </value>
@@ -1689,7 +1657,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut">Modifier+Alt+X</value>
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.query.stopsep">
           <value type="string" key="itemType">separator</value>
         </value>
@@ -1701,7 +1668,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut"></value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.stop_on_error"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">エラー時にスクリプトの実行を停止</value> 
@@ -1736,7 +1702,6 @@
           <value type="string" key="command">builtin:query.reconnect</value> 
           <value type="string" key="itemType">action</value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.new_tab"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">現在のサーバへの新規タブ(_N)</value> 
@@ -1745,7 +1710,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut">Modifier+Shift+T</value> 
         </value> 
-
    	    <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.query.rec">
           <value type="string" key="itemType">separator</value>
         </value>
@@ -1757,7 +1721,6 @@
           <value type="string" key="itemType">check</value> 
           <value type="string" key="shortcut"></value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.commit"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">トランザクションをコミット(_O)</value> 
@@ -1766,7 +1729,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut"></value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.rollback"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">トランザクションをロールバック(_R)</value> 
@@ -1775,7 +1737,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut"></value> 
         </value> 
-
 	    <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.query.edit">
           <value type="string" key="itemType">separator</value>
         </value>
@@ -1787,7 +1748,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut"></value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.revert"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
           <value type="string" key="caption">結果の編集を破棄</value> 
@@ -1796,7 +1756,6 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut"></value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.query.export">
           <value type="string" key="itemType">separator</value>
         </value>
@@ -1808,18 +1767,15 @@
           <value type="string" key="itemType">action</value> 
           <value type="string" key="shortcut"></value> 
         </value> 
-
       </value>
     </value>
+
     <!-- Database Menu -->
-    
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.database">
       <value type="string" key="name">database</value>
       <value type="string" key="caption">データベース(_D)</value>
       <value type="string" key="itemType">cascade</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.database.query"> 
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.database</link> 
           <value type="string" key="caption">データベースに接続...</value>
@@ -1883,7 +1839,6 @@
           <value type="string" key="command">plugin:wb.migration.showTypeMapEditor</value> 
           <value type="string" key="itemType">action</value> 
         </value> 
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.separator.mig">
           <value type="string" key="itemType">separator</value>
           <value type="string" key="context">*model</value>
@@ -1921,7 +1876,6 @@
           <value type="string" key="itemType">separator</value>
           <value type="string" key="context">*model</value>
         </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.database.diff_report">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.database</link>
           <value type="string" key="caption">スキーマを比較...</value>
@@ -1944,8 +1898,8 @@
         </value>
       </value>
     </value>
-    <!-- Server Menu -->
 
+    <!-- Server Menu -->
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server">
       <value type="string" key="name">server</value>
       <value type="string" key="context">*query</value>
@@ -2028,7 +1982,6 @@
           <value type="string" key="command">plugin:wb.admin.open_into:admin_dashboard</value>
           <value type="string" key="itemType">action</value>
         </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server.pf.reports">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.server</link>
           <value type="string" key="caption">パフォーマンスレポート</value>
@@ -2036,7 +1989,6 @@
           <value type="string" key="command">plugin:wb.admin.open_into:admin_performance_reports</value>
           <value type="string" key="itemType">action</value>
         </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server.pf.reports.setup">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.server</link>
           <value type="string" key="caption">パフォーマンススキーマをセットアップ</value>
@@ -2096,7 +2048,6 @@
     </value>
     
     <!-- Plugins Menu -->
-
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.plugins">
       <value type="string" key="name">plugins</value>
       <value type="string" key="caption">ツール(_T)</value>
@@ -2136,14 +2087,13 @@
         </value>
           </value>
     </value>
+
     <!-- Scripting (old Tools) Menu -->
-    
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.tools">
       <value type="string" key="name">tools</value>
       <value type="string" key="caption">スクリプト(_C)</value>
       <value type="string" key="itemType">cascade</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
       <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.tools.grt_shell">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.tools</link>
           <value type="string" key="caption">スクリプティングシェル</value>
@@ -2210,13 +2160,11 @@
         </value>
  
     <!-- Help Menu -->
-
     <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help">
       <value type="string" key="name">help</value>
       <value type="string" key="caption">ヘルプ(_H)</value>
       <value type="string" key="itemType">cascade</value>
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
-
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.index">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
           <value type="string" key="name">help_index</value>
@@ -2259,7 +2207,6 @@
                     <value type="string" key="command">builtin:web_mysql_blog</value>
                     <value type="string" key="itemType">action</value>
                 </value>
-        
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.web_mysql_forum">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
                     <value type="string" key="caption">MySQL Workbench Forums</value>
@@ -2267,7 +2214,6 @@
                     <value type="string" key="command">builtin:web_mysql_forum</value>
                     <value type="string" key="itemType">action</value>
                 </value>
-        
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.web_mysql_home">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
           <value type="string" key="caption">MySQL.com ウェブサイト</value>
