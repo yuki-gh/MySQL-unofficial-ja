@@ -8,7 +8,7 @@ linux-gnu)
 	cp -i Workbench/*.xml /usr/share/mysql-workbench/data
 	;;
 cygwin)
-	dir="MySQL/MySQL Workbench 6.3 CE/data"
+	dir="MySQL/MySQL Workbench 8.0 CE/data"
 	cp -i Workbench/*.xml "$PROGRAMFILES/$dir"
 	cp -i Workbench/*.xml "$PROGRAMFILES (x86)/$dir"
 	;;

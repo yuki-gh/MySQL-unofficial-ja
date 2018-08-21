@@ -25,14 +25,10 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 
 ## プラットフォーム
 
-- MySQL Workbench 6.3.7
+- MySQL Workbench 8.0
 
 - Windows 7 Professional x64 SP1 日本語版
-- Windows 7 Home Premium x64 SP1 日本語版
-- Windows 8.1 Update x86 日本語版
-- Windows 10 x86 日本語版
-- Mac OS X 10.11 El Capitan
-- CentOS 7.1
+- Windows 10 Home x64 日本語版 バージョン1803
 
 ## インストール
 
@@ -41,7 +37,7 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 手作業で行う場合は、`*.xml` ファイルを以下の場所にコピーします。
 
 - Windows
-	- `C:\Program Files\MySQL\MySQL Workbench 6.3 CE\data`
+	- `C:\Program Files\MySQL\MySQL Workbench 8.0 CE\data`
 	- 64ビット版Windowsに32ビット版ソフトウェアをインストールしている場合は、
 	  `C:\Program Files (x86)`となります。
 - Mac OS X
@@ -61,7 +57,7 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 ## 余談
 
 MySQL WorkbenchのCSV/JSONインポートでは、ASCIIしか扱えません。
-UTF-8を扱えるようにするには、管理者権限で、`MySQL Workbench 6.3 CE/python/lib/site.py` の
+UTF-8を扱えるようにするには、管理者権限で、`MySQL Workbench 8.0 CE/python/lib/site.py` の
 
 `encoding = "ascii"`
 
