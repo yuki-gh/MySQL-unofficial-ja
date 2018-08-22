@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <data>
   <value type="object" struct-name="app.Toolbar" id="com.mysql.wb.toolbar.option.note">

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <value type="list" content-type="object" content-struct-name="db.DatatypeGroup">
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.numeric">

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <data grt_format="2.0" document_type="MySQL Workbench Starters" version="1.0.0">
   <value type="list" key="items" content-type="object" content-struct-name="app.Starter">
