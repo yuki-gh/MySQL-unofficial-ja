@@ -122,7 +122,7 @@ context: see wb_context.h for full listing
         <value type="string" key="icon">tiny_grtshell.png</value>
         <value type="string" key="itemType">action</value>
         <value type="string" key="command">plugin:wb.form.showGRTShell</value>
-        <value type="string" key="tooltip">Show GRT Shell IDE</value>
+        <value type="string" key="tooltip">GRTシェルIDEを表示</value>
         <value type="string" key="platform">windows,linux</value>
       </value-->
 
@@ -157,7 +157,7 @@ context: see wb_context.h for full listing
         <value type="string" key="altIcon">switcher_left_on.png</value>
         <value type="string" key="itemType">segmentedToggle</value>
         <value type="string" key="command">builtin:wb.toggleSidebar</value>
-        <value type="string" key="tooltip">Toggle Sidebar</value>
+        <value type="string" key="tooltip">サイドバーをトグル</value>
         <value type="int" key="initialState">1</value>
       </value>
       <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.secondarysidebarhide">
@@ -167,7 +167,7 @@ context: see wb_context.h for full listing
         <value type="string" key="altIcon">switcher_right_on.png</value>
         <value type="string" key="itemType">segmentedToggle</value>
         <value type="string" key="command">builtin:wb.toggleSecondarySidebar</value>
-        <value type="string" key="tooltip">Toggle Secondary Sidebar</value>
+        <value type="string" key="tooltip">副サイドバーをトグル</value>
         <value type="int" key="initialState">1</value>
       </value>
     </value>

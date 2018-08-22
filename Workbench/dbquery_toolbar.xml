@@ -42,7 +42,7 @@ context: see wb_context.h for full listing
         <value type="string" key="icon">tiny_saveas.png</value>
         <value type="string" key="itemType">action</value>
         <value type="string" key="command">builtin:query.saveas</value>
-        <value type="string" key="tooltip">Save SQL Script to a New File</value>
+        <value type="string" key="tooltip">SQLスクリプトを新規ファイルに保存</value>
       </value-->
 
       <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.dbqtoolbar.sep.saveas">
@@ -164,7 +164,7 @@ context: see wb_context.h for full listing
         <value type="string" key="altIcon">switcher_left_on.png</value>
         <value type="string" key="itemType">segmentedToggle</value>
         <value type="string" key="command">builtin:wb.toggleSidebar</value>
-        <value type="string" key="tooltip">Toggle Schema Sidebar</value>
+        <value type="string" key="tooltip">スキーマサイドバーをトグル</value>
         <value type="int" key="initialState">1</value>
       </value>
       <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.dbqtoolbar.outputhide">
@@ -174,7 +174,7 @@ context: see wb_context.h for full listing
         <value type="string" key="altIcon">switcher_bottom_on.png</value>
         <value type="string" key="itemType">segmentedToggle</value>
         <value type="string" key="command">builtin:wb.toggleOutputArea</value>
-        <value type="string" key="tooltip">Toggle Output Area</value>
+        <value type="string" key="tooltip">出力領域をトグル</value>
         <value type="int" key="initialState">1</value>
       </value>
       <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.dbqtoolbar.helpbarhide">
@@ -184,7 +184,7 @@ context: see wb_context.h for full listing
         <value type="string" key="altIcon">switcher_right_on.png</value>
         <value type="string" key="itemType">segmentedToggle</value>
         <value type="string" key="command">builtin:wb.toggleSecondarySidebar</value>
-        <value type="string" key="tooltip">Toggle Sidebar</value>
+        <value type="string" key="tooltip">サイドバーをトグル</value>
         <value type="int" key="initialState">1</value>
       </value>
     </value>

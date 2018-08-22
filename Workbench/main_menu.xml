@@ -754,7 +754,7 @@
         </value>
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.reset_layout">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
-          <value type="string" key="caption">Reset Window Layout</value>
+          <value type="string" key="caption">ウィンドウのレイアウトをリセット</value>
           <value type="string" key="name">reset_layout</value>
           <value type="string" key="command">builtin:reset_layout</value>
           <value type="string" key="itemType">action</value>
@@ -766,7 +766,7 @@
         </value>
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.toggle_fullscreen">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
-          <value type="string" key="caption">Toggle Full Screen</value>
+          <value type="string" key="caption">全画面をトグル</value>
           <value type="string" key="name">toggle_fullscreen</value>
           <value type="string" key="command">builtin:toggle_fullscreen</value>
           <value type="string" key="itemType">action</value>
@@ -779,7 +779,7 @@
         </value>
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.nexttabm">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
-          <value type="string" key="caption">Select Next Query Tab</value>
+          <value type="string" key="caption">次のクエリタブを選択</value>
           <value type="string" key="name">next_query_tab</value>
           <value type="string" key="command">builtin:wb.next_query_tab</value>
           <value type="string" key="itemType">action</value>
@@ -788,7 +788,7 @@
         </value>
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.backtabm">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
-          <value type="string" key="caption">Select Previous Query Tab</value>
+          <value type="string" key="caption">前のクエリタブを選択</value>
           <value type="string" key="name">back_query_tab</value>
           <value type="string" key="command">builtin:wb.back_query_tab</value>
           <value type="string" key="itemType">action</value>
@@ -834,7 +834,7 @@
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.nextquerytabl">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
           <value type="string" key="context">*query</value>
-          <value type="string" key="caption">Select Next Query Tab</value>
+          <value type="string" key="caption">次のクエリタブを選択</value>
           <value type="string" key="name">next_query_tab</value>
           <value type="string" key="command">builtin:wb.next_query_tab</value>
           <value type="string" key="itemType">action</value>
@@ -844,7 +844,7 @@
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.view.backquerytabl">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.view</link>
           <value type="string" key="context">*query</value>
-          <value type="string" key="caption">Select Previous Query Tab</value>
+          <value type="string" key="caption">前のクエリタブを選択</value>
           <value type="string" key="name">back_query_tab</value>
           <value type="string" key="command">builtin:wb.back_query_tab</value>
           <value type="string" key="itemType">action</value>
@@ -1376,7 +1376,7 @@
         
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.tools.reporting/SE">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model</link>
-          <value type="string" key="caption">DBDoc - Model Reporting...</value>
+          <value type="string" key="caption">DBDoc - モデル 報告中...</value>
           <value type="string" key="name">report</value>
           <value type="string" key="command">plugin:wb.model.plugin.reporting</value>
           <value type="string" key="itemType">action</value>
@@ -1387,12 +1387,12 @@
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation/SE">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model</link>
           <value type="string" key="name">validation</value>
-          <value type="string" key="caption">Validation</value>
+          <value type="string" key="caption">バリデーション</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateAll/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation/SE</link>
-              <value type="string" key="caption">Validate All</value>
+              <value type="string" key="caption">すべてをバリデート</value>
               <value type="string" key="name">all_validation</value>
               <value type="string" key="command">plugin:db.plugin.wb.validate:All</value>
               <value type="string" key="itemType">action</value>
@@ -1403,35 +1403,35 @@
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateEmptyContent/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation/SE</link>
-              <value type="string" key="caption">Check for Empty Content</value>
+              <value type="string" key="caption">空の内容をチェック</value>
               <value type="string" key="name">empty_content_validation</value>
               <value type="string" key="command">plugin:db.plugin.wb.validate:EmptyContent</value>
               <value type="string" key="itemType">action</value>
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateTableEfficiency/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation/SE</link>
-              <value type="string" key="caption">Check Table Efficiency</value>
+              <value type="string" key="caption">テーブルの効率をチェック</value>
               <value type="string" key="name">empty_content_validation</value>
               <value type="string" key="command">plugin:db.plugin.wb.validate:TableEfficiency</value>
               <value type="string" key="itemType">action</value>
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateDuplicateIdentifiers/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation/SE</link>
-              <value type="string" key="caption">Check Duplicated Identifiers</value>
+              <value type="string" key="caption">重複した識別子をチェック</value>
               <value type="string" key="name">empty_content_validation</value>
               <value type="string" key="command">plugin:db.plugin.wb.validate:DuplicateIdentifiers</value>
               <value type="string" key="itemType">action</value>
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateConsistency/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation/SE</link>
-              <value type="string" key="caption">Check Consistency</value>
+              <value type="string" key="caption">一貫性をチェック</value>
               <value type="string" key="name">empty_content_validation</value>
               <value type="string" key="command">plugin:db.plugin.wb.validate:Consistency</value>
               <value type="string" key="itemType">action</value>
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateLogic/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation/SE</link>
-              <value type="string" key="caption">Check Logic Errors</value>
+              <value type="string" key="caption">論理エラーをチェック</value>
               <value type="string" key="name">empty_content_validation</value>
               <value type="string" key="command">plugin:db.plugin.wb.validate:Logic</value>
               <value type="string" key="itemType">action</value>
@@ -1441,12 +1441,12 @@
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation_mysql/SE">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model</link>
           <value type="string" key="name">validation_mysql</value>
-          <value type="string" key="caption">Validation (MySQL)</value>
+          <value type="string" key="caption">バリデーション (MySQL)</value>
           <value type="string" key="itemType">cascade</value>
           <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validationmysql.validateAll/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation_mysql/SE</link>
-              <value type="string" key="caption">Validate All</value>
+              <value type="string" key="caption">すべてをバリデート</value>
               <value type="string" key="name">all_validation_mysql</value>
               <value type="string" key="command">plugin:db.mysql.plugin.wb.validate:All</value>
               <value type="string" key="itemType">action</value>
@@ -1457,21 +1457,21 @@
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateIntegrity/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation_mysql/SE</link>
-              <value type="string" key="caption">Check Integrity</value>
+              <value type="string" key="caption">整合性をチェック</value>
               <value type="string" key="name">integrity_validation</value>
               <value type="string" key="command">plugin:db.mysql.plugin.wb.validate:Integrity</value>
               <value type="string" key="itemType">action</value>
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateSyntax/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation_mysql/SE</link>
-              <value type="string" key="caption">Check Syntax</value>
+              <value type="string" key="caption">文法をチェック</value>
               <value type="string" key="name">syntax_validation</value>
               <value type="string" key="command">plugin:db.mysql.plugin.wb.validate:Syntax</value>
               <value type="string" key="itemType">action</value>
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.validation.validateDuplicatesAdditions/SE">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.validation_mysql/SE</link>
-              <value type="string" key="caption">Check Duplicated Identifiers (Additions)</value>
+              <value type="string" key="caption">重複した識別子(追加)をチェック</value>
               <value type="string" key="name">duplicate_identifiers_add_validation</value>
               <value type="string" key="command">plugin:db.mysql.plugin.wb.validate:DuplicatesAdditions</value>
               <value type="string" key="itemType">action</value>
@@ -1502,7 +1502,7 @@
             </value>
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.visualization.table_pkonly">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.fnotation</link>
-              <value type="string" key="caption">Workbench (PKs and FKs Only)</value>
+              <value type="string" key="caption">Workbench (主キー・外部キーのみ)</value>
               <value type="string" key="command">plugin:wb.view.setFigureNotation:workbench/pkonly</value>
               <value type="string" key="itemType">radio</value>
             </value>
@@ -1534,7 +1534,7 @@
             <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.model.rnotation.crows_feet">
               <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.model.rnotation</link>
               <value type="string" key="name">visualization_notation_crows_feet</value>
-              <value type="string" key="caption">Crow's Foot (IE)</value>
+              <value type="string" key="caption">カラスの足 (IE)</value>
               <value type="string" key="command">plugin:wb.view.setRelationshipNotation:crowsfoot</value>
               <value type="string" key="itemType">radio</value>
             </value>
@@ -2001,14 +2001,14 @@
         </value>
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server.audit/SE">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.server</link>
-          <value type="string" key="caption">Audit Log Inspector</value>
+          <value type="string" key="caption">監査ログインスペクター</value>
           <value type="string" key="name">admin_audit_inspector</value>
           <value type="string" key="command">plugin:wb.admin.open_into_se:admin_audit_inspector</value>
           <value type="string" key="itemType">action</value>
         </value>
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server.firewall/SE">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.server</link>
-          <value type="string" key="caption">Firewall</value>
+          <value type="string" key="caption">ファイアウォール</value>
           <value type="string" key="name">admin_firewall</value>
           <value type="string" key="command">plugin:wb.admin.open_into_se:admin_firewall</value>
           <value type="string" key="itemType">action</value>
@@ -2022,7 +2022,7 @@
         </value>
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.server.mebrec/SE">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.server</link>
-          <value type="string" key="caption">Backup Recovery</value>
+          <value type="string" key="caption">バックアップ復元</value>
           <value type="string" key="name">admin_meb_restore</value>
           <value type="string" key="command">plugin:wb.admin.open_into_se:admin_meb_restore</value>
           <value type="string" key="itemType">action</value>
@@ -2055,7 +2055,7 @@
       <value type="list" key="subItems" content-type="object" content-struct-name="app.MenuItem">
         <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.plugins.browse_audit/SE">
           <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.plugins</link>
-          <value type="string" key="caption">Browse Audit Log File...</value>
+          <value type="string" key="caption">監査ログファイルを閲覧...</value>
           <value type="string" key="name">browse_audit</value>
           <value type="string" key="command">call:WbAdmin.openAuditFile</value>
           <value type="string" key="itemType">action</value>
@@ -2188,28 +2188,28 @@
         </value>
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.show-license">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
-                    <value type="string" key="caption">Show License Info</value>
+                    <value type="string" key="caption">ライセンス情報を表示</value>
                     <value type="string" key="name">show-license</value>
                     <value type="string" key="command">builtin:show-license</value>
                     <value type="string" key="itemType">action</value>
                 </value>
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.web_mysql_docs">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
-                    <value type="string" key="caption">MySQL Workbench Documentation</value>
+                    <value type="string" key="caption">MySQL Workbench ドキュメント</value>
                     <value type="string" key="name">web_mysql_docs</value>
                     <value type="string" key="command">builtin:web_mysql_docs</value>
                     <value type="string" key="itemType">action</value>
                 </value>
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.web_mysql_blog">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
-                    <value type="string" key="caption">MySQL Workbench Blog</value>
+                    <value type="string" key="caption">MySQL Workbench ブログ</value>
                     <value type="string" key="name">web_mysql_blog</value>
                     <value type="string" key="command">builtin:web_mysql_blog</value>
                     <value type="string" key="itemType">action</value>
                 </value>
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.web_mysql_forum">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
-                    <value type="string" key="caption">MySQL Workbench Forums</value>
+                    <value type="string" key="caption">MySQL Workbench フォーラム</value>
                     <value type="string" key="name">web_mysql_forum</value>
                     <value type="string" key="command">builtin:web_mysql_forum</value>
                     <value type="string" key="itemType">action</value>
@@ -2241,7 +2241,7 @@
                 </value>
                 <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.help.web_support/SE">
                     <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.help</link>
-                    <value type="string" key="caption">Oracle Support</value>
+                    <value type="string" key="caption">Oracleサポート</value>
                     <value type="string" key="name">web_support</value>
                     <value type="string" key="command">builtin:web_support</value>
                     <value type="string" key="itemType">action</value>
