@@ -10,9 +10,11 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 
 ## 内容
 
+- `db_datatype_groups.xml`
 - `dbquery_toolbar.xml`
 - `main_menu.xml`
 - `model_diagram_toolbar.xml`
+- `model_option_toolbar_note.xml`
 - `model_toolbar.xml`
 - `tools_toolbar.xml`
 - `tools_toolbar_basic.xml`
@@ -20,8 +22,10 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 
 - `predefined_starters.ja.xml`
 
-- `install_win.bat`
 - `install.sh`
+- `install_mac.sh`
+- `install_linux.sh`
+- `install_win.bat`
 
 ## プラットフォーム
 
@@ -49,7 +53,6 @@ MySQL Workbenchのユーザーインタフェースの一部を日本語化し�
 
 - 日本語入力の問題を解消したり、日本語のデータやテーブル名などの文字化けを解消するものではありません。
 - 外部化されていないテキストが多いようなので、これ以上の翻訳は困難と思われます。
-- ホーム画面右ペインのShortcutsは、`predefined_starters.xml`で翻訳できますが、文字化けするので保留しています。
 - XMLを編集する際は、ファイルはUTF-8である必要があります。シフトJISになっているとクラッシュします。
 - Windowsでは、XMLを編集する際は、インストールされているファイルを直接編集するのではなく、
   別の場所で編集してコピーすることをおすすめします。直接編集するとVirtualStoreに飛ばされます。
