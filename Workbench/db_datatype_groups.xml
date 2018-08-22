@@ -2,47 +2,47 @@
 <data>
   <value type="list" content-type="object" content-struct-name="db.DatatypeGroup">
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.numeric">
-      <value type="string" key="caption">”’lŒ^</value>
+      <value type="string" key="caption">æ•°å€¤å‹</value>
       <value type="string" key="description">Datatypes to store numbers of different sizes</value>
       <value type="string" key="name">numeric</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.string">
-      <value type="string" key="caption">•¶š—ñ</value>
+      <value type="string" key="caption">æ–‡å­—åˆ—</value>
       <value type="string" key="description">Datatypes to store shorter text</value>
       <value type="string" key="name">string</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.text">
-      <value type="string" key="caption">LONGTEXTŒ^</value>
+      <value type="string" key="caption">LONGTEXTå‹</value>
       <value type="string" key="description">Datatypes to store long text</value>
       <value type="string" key="name">text</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.blob">
-      <value type="string" key="caption">BLOBŒ^</value>
+      <value type="string" key="caption">BLOBå‹</value>
       <value type="string" key="description">Datatypes to store binary data</value>
       <value type="string" key="name">blob</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.datetime">
-      <value type="string" key="caption">“ú•t‚ÆŠÔŒ^</value>
+      <value type="string" key="caption">æ—¥ä»˜ã¨æ™‚é–“å‹</value>
       <value type="string" key="description">Datatypes to store date and time values</value>
       <value type="string" key="name">datetime</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.gis">
-      <value type="string" key="caption">‹óŠÔƒf[ƒ^Œ^</value>
+      <value type="string" key="caption">ç©ºé–“ãƒ‡ãƒ¼ã‚¿å‹</value>
       <value type="string" key="description">Datatypes to store geographical information</value>
       <value type="string" key="name">gis</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.various">
-      <value type="string" key="caption">—lX‚ÈŒ^</value>
+      <value type="string" key="caption">æ§˜ã€…ãªå‹</value>
       <value type="string" key="description">Various datatypes</value>
       <value type="string" key="name">various</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.userdefined">
-      <value type="string" key="caption">ƒ†[ƒU[’è‹`Œ^</value>
+      <value type="string" key="caption">ãƒ¦ãƒ¼ã‚¶ãƒ¼å®šç¾©å‹</value>
       <value type="string" key="description">Datatypes defined by a user</value>
       <value type="string" key="name">userdefined</value>
     </value>
     <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.structured">
-      <value type="string" key="caption">\‘¢Œ^</value>
+      <value type="string" key="caption">æ§‹é€ å‹</value>
       <value type="string" key="description">Structured datatypes consisting of a collection of simple and other structured datatypes</value>
       <value type="string" key="name">structured</value>
     </value>

@@ -15,7 +15,7 @@
       <!--value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tool.option.note.drawback">
         <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.option.note</link>
         <value type="string" key="name">basic/note/drawback</value>
-        <value type="string" key="tooltip">”wŒi‚ğ•`‰æ</value>
+        <value type="string" key="tooltip">èƒŒæ™¯ã‚’æç”»</value>
         <value type="string" key="command">option:workbench.model.NoteFigure:DrawBackground</value>
         <value type="string" key="itemType">toggle</value>
       </value-->
